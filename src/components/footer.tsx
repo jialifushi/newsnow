@@ -16,7 +16,7 @@ export function Footer() {
       </a>
 
       <span>
-        <span className="text-pink-400 font-cute text-lg">NewsNow © 2024 By </span>
+        <span className="text-pink-400 font-cute text-lg">HertzHe © 2025 By </span>
 
         {/* 作者链接 */}
         <a 
