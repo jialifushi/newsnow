@@ -70,12 +70,11 @@ export function Menu() {
               <span>Visit Music</span>
               </li>
               <li className="flex gap-2 items-center">
-                <a
-                  href="https://monitor.789168.xyz/"
-                >
+                <a href="https://monitor.789168.xyz/" className="inline-block">
                   <img
-                    alt="GitHub stars badge"
-                    src="https://img.shields.io/github/stars/amclubs/newsnow?logo=github"
+                    alt="不要碰我"
+                    src="https://img.icons8.com/?size=100&id=T2pGOWV8jOEs&format=png&color=000000" // 自定义图片 URL
+                    className="h-6" // 可选：调整图片高度
                   />
                 </a>
                 <a
