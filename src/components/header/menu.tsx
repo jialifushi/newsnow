@@ -77,12 +77,11 @@ export function Menu() {
                     className="h-6" // 可选：调整图片高度
                   />
                 </a>
-                <a
-                  href="https://search.789168.xyz/"
-                >
+                <a href="https://search.789168.xyz/" className="inline-block">
                   <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/amclubs/newsnow?logo=github"
+                    alt="说了不听"
+                    src="https://img.icons8.com/?size=100&id=ozcvjcrhPhQT&format=png&color=000000" // 自定义图片 URL
+                    className="h-6" // 可选：调整图片高度
                   />
                 </a>
               </li>
