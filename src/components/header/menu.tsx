@@ -65,13 +65,13 @@ export function Menu() {
                     </li>
                   ))}
               <ThemeToggle />
-              <li onClick={() => window.open(Homepage)}>
-                <span className="i-ph:github-logo-duotone inline-block" />
-                <span>Star on Github </span>
+              <li onClick={() => window.open('https://listen.789168.xyz/')}>
+              <span className="i-ph:github-logo-duotone inline-block" />
+              <span>Visit Music</span>
               </li>
               <li className="flex gap-2 items-center">
                 <a
-                  href="https://github.com/amclubs/newsnow"
+                  href="https://monitor.789168.xyz/"
                 >
                   <img
                     alt="GitHub stars badge"
@@ -79,7 +79,7 @@ export function Menu() {
                   />
                 </a>
                 <a
-                  href="https://github.com/amclubs/newsnow/fork"
+                  href="https://search.789168.xyz/"
                 >
                   <img
                     alt="GitHub forks badge"
