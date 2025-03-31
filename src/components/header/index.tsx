@@ -48,8 +48,8 @@ export function Header() {
           <span className="text-2xl font-brand line-height-none!">
             <p>News</p>
             <p className="mt--1">
-              <span className="color-primary-6">N</span>
-              <span>ow</span>
+              <span className="color-primary-6">H</span>
+              <span>ertz</span>
             </p>
           </span>
         </Link>
@@ -61,7 +61,7 @@ export function Header() {
           href="https://hezhuangbook.789168.xyz" // 跳转的目标网页
           className="btn text-sm ml-1 font-mono"
         >
-          Visit  E-Book {/* 固定显示的内容文字 */}
+          Visit E-Book {/* 固定显示的内容文字 */}
         </a>
 
       </span>
