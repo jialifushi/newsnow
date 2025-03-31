@@ -11,6 +11,13 @@ function ThemeToggle() {
     </li>
   )
 }
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    .font-cute {
+      font-family: "Comic Neue", cursive;
+      font-weight: 700;
+    }
+  </style>
 
 export function Menu() {
   const { loggedIn, login, logout, userInfo, enableLogin } = useLogin()
