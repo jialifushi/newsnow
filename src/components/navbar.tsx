@@ -18,7 +18,7 @@ export function NavBar() {
           "px-2 hover:(bg-primary/10 rounded-md) op-70 dark:op-90",
         )}
       >
-        更多
+        搜索
       </button>
       {fixedColumnIds.map(columnId => (
         <Link
