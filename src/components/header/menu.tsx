@@ -77,6 +77,7 @@ export function Menu() {
                     className="h-6" // 可选：调整图片高度
                   />
                 </a>
+              <span>说了不听，不要点我</span>
                 <a href="https://search.789168.xyz/" className="inline-block">
                   <img
                     alt="说了不听"
