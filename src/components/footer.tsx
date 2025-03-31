@@ -8,7 +8,7 @@ export function Footer() {
     <>
       {/* MIT 和 LICENSE 链接 */}
       <a 
-        href="https://loveandshare:4533" 
+        href="https://loveandshare.site:4533" 
         target="_blank" 
         className="text-pink-400 hover:text-pink-500 font-cute text-lg"
       >
