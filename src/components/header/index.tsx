@@ -61,7 +61,7 @@ export function Header() {
           href="https://hezhuangbook.789168.xyz" // 跳转的目标网页
           className="btn text-sm ml-1 font-mono"
         >
-          Visit E-Book {/* 固定显示的内容文字 */}
+          Visit Ebook {/* 固定显示的内容文字 */}
         </a>
 
       </span>
