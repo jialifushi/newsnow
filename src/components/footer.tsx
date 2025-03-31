@@ -18,7 +18,6 @@ export function Footer() {
         {/* 仅 "© 2024 By" 部分显示为黑色 */}
         <span className="text-pink-400 font-cute text-lg">HertzHe </span>
         <span className="text-black text-lg">© 2025 By </span>
-      </span>
         {/* 作者链接 */}
         <a 
           href={Author.url} 
