@@ -76,8 +76,8 @@ export function Menu() {
                     src="https://img.icons8.com/?size=100&id=T2pGOWV8jOEs&format=png&color=000000" // 自定义图片 URL
                     className="h-6" // 可选：调整图片高度
                   />
-                  <span className="absolute left-1/2 -translate-x-1/2 bottom-8 bg-gray-200 text-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    不要点我
+                    <span className="absolute left-1/2 -translate-x-1/2 bottom-8 bg-pink-300 text-white text-xs px-2 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity font-cute">
+                    有一种爱
                   </span>
                 </a>
                 {/* 文字：初始小，鼠标悬停时放大 */}
@@ -89,8 +89,8 @@ export function Menu() {
                     src="https://img.icons8.com/?size=100&id=ozcvjcrhPhQT&format=png&color=000000" // 自定义图片 URL
                     className="h-6" // 可选：调整图片高度
                   />
-                  <span className="absolute left-1/2 -translate-x-1/2 bottom-8 bg-gray-200 text-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    说了不听
+                  <span className="absolute left-1/2 -translate-x-1/2 bottom-8 bg-pink-300 text-white text-xs px-2 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity font-cute">
+                    埋在心底
                   </span>
                 </a>
               </li>
