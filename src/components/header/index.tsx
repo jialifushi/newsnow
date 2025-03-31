@@ -53,9 +53,17 @@ export function Header() {
             </p>
           </span>
         </Link>
-        <a target="_blank" href={`${Homepage}/releases/tag/v${Version}`} className="btn text-sm ml-1 font-mono">
+        {/*         <a target="_blank" href={`${Homepage}/releases/tag/v${Version}`} className="btn text-sm ml-1 font-mono">
           {`v${Version}`}
+        </a>  替换版本号为固定文字 */}
+        <a
+          target="_blank"
+          href="https://hezhuangbook.789168.xyz" // 跳转的目标网页
+          className="btn text-sm ml-1 font-mono"
+        >
+          Hertz_E-Book {/* 固定显示的内容文字 */}
         </a>
+
       </span>
       <span className="justify-self-center">
         <span className="hidden md:(inline-block)">
