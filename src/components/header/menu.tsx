@@ -11,9 +11,6 @@ function ThemeToggle() {
     </li>
   )
 }
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&display=swap" rel="stylesheet">
-</head>
 
 export function Menu() {
   const { loggedIn, login, logout, userInfo, enableLogin } = useLogin()
