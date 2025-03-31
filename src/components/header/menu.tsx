@@ -76,14 +76,22 @@ export function Menu() {
                     src="https://img.icons8.com/?size=100&id=T2pGOWV8jOEs&format=png&color=000000" // 自定义图片 URL
                     className="h-6" // 可选：调整图片高度
                   />
+                  <span className="absolute left-1/2 -translate-x-1/2 bottom-8 bg-gray-200 text-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                    不要碰我
+                  </span>
                 </a>
-              <span>说了不听，不要点我</span>
+                {/* 文字：初始小，鼠标悬停时放大 */}
+                <span className="text-xs transition-transform hover:scale-125">说了不听，不要点我</span>
+                {/* 图片2：鼠标悬停时显示文字 */}
                 <a href="https://search.789168.xyz/" className="inline-block">
                   <img
                     alt="说了不听"
                     src="https://img.icons8.com/?size=100&id=ozcvjcrhPhQT&format=png&color=000000" // 自定义图片 URL
                     className="h-6" // 可选：调整图片高度
                   />
+                  <span className="absolute left-1/2 -translate-x-1/2 bottom-8 bg-gray-200 text-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                    说了不听
+                  </span>
                 </a>
               </li>
             </ol>
