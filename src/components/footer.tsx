@@ -14,10 +14,11 @@ export function Footer() {
       >
         可爱 女人
       </a>
-
       <span>
-        <span className="text-pink-400 font-cute text-lg">HertzHe © 2025 By </span>
-
+        {/* 仅 "© 2024 By" 部分显示为黑色 */}
+        <span className="text-black font-cute text-lg">
+          NewsNow © 2024 By 
+        </span>
         {/* 作者链接 */}
         <a 
           href={Author.url} 
