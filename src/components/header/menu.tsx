@@ -65,7 +65,7 @@ export function Menu() {
                     </li>
                   ))}
               <ThemeToggle />
-              <li onClick={() => window.open('https://listen.789168.xyz/')}>
+              <li onClick={() => window.open('https://music.789168.xyz/')}>
               <span className="i-ph:github-logo-duotone inline-block" />
               <span>Visit Music</span>
               </li>
