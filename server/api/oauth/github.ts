@@ -68,5 +68,7 @@ export default defineEventHandler(async (event) => {
       name: userInfo.name,
     }),
   })
-  return sendRedirect(event, `/?${params.toString()}`)
+  const customDomain = process.env.CUSTOM_DOMAIN || "news.789168.xyz"; // 从环境变量中获取自定义域名
+  const redirectUrl = `https://${customDomain}/?${params.toString()}`;
+  return sendRedirect(event, redirectUrl);
 })
